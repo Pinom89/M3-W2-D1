@@ -1,0 +1,51 @@
+h1 {
+    color: blueviolet;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#h1 {
+ border: 2px  solid black;
+ border-radius: 10px;
+
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+    background-color: rgb(36, 208, 36);
+    border: solid black 5px;
+    border-radius: 20px ;
+    color: whitesmoke;
+    padding: 0 20px;
+}
+
+img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.carosello {
+    min-height: 500px;
+    min-width: auto;
+}
+.d-flex{
+    object-fit: cover;
+}
+
+.imgcarousel{
+    min-height: 400px;
+    height: auto;
+    min-width: 500px;
+    width:auto;
+
+}
+
+.carousel-caption h5, .carousel-caption p {
+    margin: auto;
+    justify-content: center;
+    max-width: 480px ;
+    color: rgb(255, 255, 255); 
+    overflow-wrap: break-word; 
+}
+

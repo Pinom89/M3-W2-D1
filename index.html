@@ -1,0 +1,247 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M3 W2 D1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color: #62c123" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Top Music</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://open.spotify.com/intl-it">Spotify</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="www.youtube.com">Youtube</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Esplora i generi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#card1">Genere 70/80</a></li>
+                  <li><a class="dropdown-item" href="#card2">Musica Blues</a></li>
+                  <li><a class="dropdown-item" href="#card3">Dance</a></li>
+                  <li><a class="dropdown-item" href="#card4">Elettronica</a></li>
+                  <li><a class="dropdown-item" href="#card5">Musica Indie</a></li>
+                  <li><a class="dropdown-item" href="#card6">Trapmusic</a></li>
+                  <li><a class="dropdown-item" href="#card7">Musica Workout</a></li>
+                  <li><a class="dropdown-item" href="#card8">Musica strumentale</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#braniascoltati">Brani più ascoltati</a></li>
+                </ul>
+              </li>
+      
+            </ul>
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+              <button class="btn btn-outline-success" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--  Titolo -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="h1">I GENERI PIU' ASCOLTATI</h1>
+            </div>
+        </div>
+    </div>
+
+      <!--  Creazione card -->
+   
+    <div class="container mt-3">
+        <div class="row">
+            
+              <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card1">
+                    <img src="assets/1974.jpg" class="card-img-top" alt="genere musica anni 70/80">
+                    <div class="card-body">
+                      <h5 class="card-title">Anni 70/80</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ascolta ora</a>
+                    </div>
+                </div>
+          
+             
+              <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card2">
+                  <img src="assets/blues.jpg" class="card-img-top" alt=" cover blues">
+                  <div class="card-body">
+                    <h5 class="card-title">Musica Blues</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Ascolta Ora</a>
+                  </div>
+                </div>
+              
+              
+                <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card3">
+                  <img src="assets/dance.jpg" class="card-img-top" alt="cover dance">
+                  <div class="card-body">
+                    <h5 class="card-title">Musica Dance</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Balla con noi! </a>
+                  </div>
+                </div>
+            
+              <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card4">
+                <img src="assets/elettronica.jpg" class="card-img-top" alt="cover musica elettronica">
+                <div class="card-body">
+                  <h5 class="card-title">Elettronica</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Scatenati adesso </a>
+                </div>
+             </div>
+      </div>
+  </div>
+
+    <div class="container mt-3">
+        <div class="row">
+          
+              <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card5">
+                  <img src="assets/indie.jpg" class="card-img-top" alt="cover musica indie">
+                    <div class="card-body">
+                      <h5 class="card-title">Musica indie</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ascolta ora</a>
+                    </div>
+               </div>
+              <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card6">
+                <img src="assets/trap music.jpg" class="card-img-top" alt="cover trap">
+                  <div class="card-body">
+                    <h5 class="card-title">Trap music</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Ascolta ora</a>
+                  </div>
+              </div>
+                <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card7">
+                    <img src="assets/sport music.jpg" class="card-img-top" alt="cover music sport">
+                    <div class="card-body">
+                      <h5 class="card-title">Musica Workout</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Allenati ora</a>
+                    </div>
+                </div>
+                <div class="card m-auto col-sm-6 col-md-4 col-lg-6" style="width: 18rem;" id="card8">
+                  <img src="assets/instrumental.jpg" class="card-img-top" alt="cover strumentale">
+                    <div class="card-body">
+                         <h5 class="card-title">Musica strumentale</h5>
+                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         <a href="#" class="btn btn-primary">Ascolta ora</a>
+                    </div>
+                </div>
+      </div>
+  </div>
+
+ <!-- sfoglia album/carosello -->
+
+<div class="container mt-4 m-auto carosello" id="braniascoltati">
+  <div class="row col-12 m-auto">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="assets/annalisa.jpg" class="d-block imgcarousel" alt="Cantante Annalisa">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Annalisa</h5>
+              <p>"Annalisa, con la sua voce incantevole, cattura l'essenza dell'emozione attraverso le sue melodie.</p>
+            </div>
+          </div> 
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-items-center" id="braniascoltati">
+            <img src="assets/loredana.jpg" class="d-block imgcarousel" alt="cantante loredana Bertè">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Loredana Bertè</h5>
+              <p>Loredana Bertè, con la sua personalità magnetica e la sua voce potente, incanta e sorprende il pubblico ad ogni nota.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="assets/mengoni.jpg" class="d-block imgcarousel" alt="cantante Marco Mengoni">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>Marco Mengoni</h5>
+              <p>Marco Mengoni, con il suo carisma straordinario e il talento vocale unico, trasporta il pubblico in un viaggio emozionale attraverso le sue canzoni.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="assets/mammood.jpg" class="d-block imgcarousel" alt="cantante Mahmood">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mahmood</h5>
+              <p>Mahmood, con il suo stile distintivo e le sue profonde liriche, trasmette un'energia magnetica che cattura l'anima di chi lo ascolta.</p>
+            </div>
+         </div>
+       </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+ 
+
+<!--  Footer-->
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <h5>Contatti</h5>
+          <p>Email: info@topmusic.com</p>
+          <p>Telefono: +39123456789</p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h5>Link Utili</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chi Siamo</a></li>
+            <li><a href="#">Servizi</a></li>
+            <li><a href="#">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h5>Social</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com/?locale=it_IT">Facebook</a></li>
+            <li><a href="https://twitter.com/i/flow/login">Twitter</a></li>
+            <li><a href="https://www.instagram.com/accounts/login/">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+
+</body>
+</html>
